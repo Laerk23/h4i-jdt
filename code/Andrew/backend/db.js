@@ -7,9 +7,9 @@ const { Pool } = require('pg')
 // information like the database username, password, server address, port, and database name.
 // The connectionString is specific to a PostgreSQL instance hosted on the Railway platform, 
 // which is a service that provides PostgreSQL hosting among other services.
-const pool = new Pool ({
-    connectionString: ""
-    
+const pool = new Pool({
+    connectionString: "postgresql://postgres:KSbyKxMQfIMPlOExFwnxNqvpGnCHAjLK@viaduct.proxy.rlwy.net:23462/railway"
+
     // get from yuor Railway PostgreSQL Database (in the Variables Tab --> DATABASE_URL)
     // Note: The actual URI has been redacted and placeholders <...> have been used for privacy.
 })
